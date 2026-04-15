@@ -2,8 +2,8 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 2
-#SBATCH --mem=30G
 #SBATCH -t 48:00:00
+#SBATCH --mem=60G
 #SBATCH -J flye
 #SBATCH --output=%x.%j.out
 
