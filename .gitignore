@@ -5,3 +5,4 @@ data/trimmed_data/
 *.bam
 *.sam
 *.zip
+*.out
