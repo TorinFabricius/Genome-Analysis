@@ -13,6 +13,6 @@ mkdir -p ~/Genome-Analysis/analyses/02_assembly
 
 flye \
   --nano-raw ~/Genome-Analysis/data/raw_data/chr3_clean_nanopore.fq.gz \
-  --out-dir ~/Genome-Analysis/analyses/02_assembly \
-  --genome-size 20m \
+  --out-dir ~/Genome-Analysis/analyses/02_assembly_2 \
+  --genome-size 16m \
   --threads 2
