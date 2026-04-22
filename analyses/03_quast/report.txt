@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    pilon_polished
+# contigs (>= 0 bp)         15            
+# contigs (>= 1000 bp)      15            
+# contigs (>= 5000 bp)      11            
+# contigs (>= 10000 bp)     11            
+# contigs (>= 25000 bp)     9             
+# contigs (>= 50000 bp)     8             
+Total length (>= 0 bp)      9643012       
+Total length (>= 1000 bp)   9643012       
+Total length (>= 5000 bp)   9629130       
+Total length (>= 10000 bp)  9629130       
+Total length (>= 25000 bp)  9605148       
+Total length (>= 50000 bp)  9574011       
+# contigs                   15            
+Largest contig              5065236       
+Total length                9643012       
+GC (%)                      41.56         
+N50                         5065236       
+N90                         632008        
+auN                         3122678.7     
+L50                         1             
+L90                         5             
+# N's per 100 kbp           0.00          
