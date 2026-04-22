@@ -12,9 +12,9 @@ module load BUSCO/5.8.2-gfbf-2024a
 cd ~/Genome-Analysis/analyses
 
 busco \
-  -i ~/Genome-Analysis/analyses/02_assembly_2/assembly.fasta \
+  -i ~/Genome-Analysis/analyses/03_polishing/pilon_polished.fasta \
   -l embryophyta_odb10 \
-  -o 02_busco \
+  -o 03_busco \
   -m genome \
   --cpu 2 \
   -f

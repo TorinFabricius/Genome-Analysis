@@ -9,5 +9,5 @@
 module load QUAST/5.3.0-gfbf-2024a
 
 quast.py \
-  -o ~/Genome-Analysis/analyses/02_quast \
-  ~/Genome-Analysis/analyses/02_assembly_2/assembly.fasta
+  -o ~/Genome-Analysis/analyses/03_quast \
+  ~/Genome-Analysis/analyses/03_polishing/pilon_polished.fasta
