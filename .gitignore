@@ -1,8 +1,41 @@
-data/raw_data/
-data/trimmed_data/
-*.fastq.gz
-*.fq.gz
-*.bam
-*.sam
-*.zip
+# Ignore all analyses
+analyses/*
+
+# Allow these folders
+!analyses/02_quast/
+!analyses/03_quast/
+!analyses/02_busco/
+!analyses/03_busco/
+
+# Then allow specific files inside them
+!analyses/02_quast/report.txt
+!analyses/03_quast/report.txt
+!analyses/02_busco/short_summary*.txt
+!analyses/03_busco/short_summary*.txt
+
+# Ignore everything else inside those folders again
+analyses/02_quast/*
+analyses/03_quast/*
+analyses/02_busco/*
+analyses/03_busco/*
+
+# Re-allow the summary files
+!analyses/02_quast/report.txt
+!analyses/03_quast/report.txt
+!analyses/02_busco/short_summary*.txt
+!analyses/03_busco/short_summary*.txt
+
+# Logs
+*.log
 *.out
+
+# Bio files
+*.bam
+*.bai
+*.fasta
+*.fa
+*.gz
+*.gfa
+
+# Masking output
+analyses/04_masking/*
