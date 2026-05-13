@@ -1,0 +1,20 @@
+
+out of 1089 with nonzero total read count
+adjusted p-value < 0.1
+LFC > 0 (up)       : 199, 18%
+LFC < 0 (down)     : 212, 19%
+outliers [1]       : 7, 0.64%
+low counts [2]     : 22, 2%
+(mean count < 2)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+
+Number of genes with padj < 0.05:
+[1] 332
+
+Number of upregulated genes, padj < 0.05 and log2FC > 1:
+[1] 131
+
+Number of downregulated genes, padj < 0.05 and log2FC < -1:
+[1] 168
